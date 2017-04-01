@@ -1,0 +1,65 @@
+
+
+
+/*
+Fonts are Google Fonts Open Sans and PT Serif
+Available weights 400, 600, 700, 800
+Italics?
+
+
+*/
+
+h2 {
+  	font-family: 'Open Sans', sans-serif;
+  	padding-top: 30px;
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+
+h3 {
+  	font-family: 'Open Sans', sans-serif;
+  	margin: 15px;
+  	font-weight: 600;
+}
+
+
+p {
+  	font-family: 'PT Serif', serif;
+}
+
+.card {
+
+	width: 100%;
+	margin: 0 auto;
+	vertical-align: top;
+	overflow: hidden;
+
+}
+
+.svg-content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tooltip {
+
+	color: white;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 'semi-bold';
+    position: absolute;
+    padding: 5px 10px;
+    background: #4F4E4E;
+
+}
+
+@media (min-width: 960px) {
+	.card {
+		width: 960px;
+	}
+
+}
